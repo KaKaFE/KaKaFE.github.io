@@ -1,3 +1,5 @@
+/* 기본 CSS */
+
 * {
 	margin: 0px;
 	padding: 0px;
@@ -14,20 +16,41 @@ a {
 }
 
 html {
-	font-size: 1rem;
+	font-size: 16px;
 	font-family: Arial, sans-serif;
+}
+
+.nav-wrap {
+	width: 80%;
+	margin: 0 auto;
+	min-width: 1550px;
+}
+
+/* nav-top style */
+
+.navbar {
+	height: 111px;
+	position: relative;
+	/* border-bottom: 2px solid #00a8e1; */
+}
+
+.navbar, .nav-top {
+	overflow: hidden;
 }
 
 .navbar {
 	background-color: #232f3e;
-	overflow: hidden;
+}
+
+.nav-top>div {
+	margin: 13px 18px 0 0px;
+	float: left;
 }
 
 .logo {
-	padding: 13px 18px 0 27px;
-	width: 190px;
-	height: 26px;
-	float: left;
+	width: 135px;
+	height: 100%;
+	position: relative;
 }
 
 .logo-img {
@@ -41,17 +64,14 @@ html {
 	text-decoration: underline;
 	color: #48A3C6;
 	position: absolute;
-	top: 31px;
-	left: 96px;
+	top: 17px;
+	left: 70px;
 }
 
 .search-bar {
 	box-sizing: border-box;
-	display: inline-block;
 	width: 882px;
-	height: 37px;
-	margin: 10px 18px 0 27px;
-	border-radius: 4px 4px 4px 4px;
+	border-radius: 4px;
 	background-color: #fff;
 	position: relative;
 }
@@ -61,8 +81,7 @@ html {
 	position: relative;
 	width: 60px;
 	display: inline-block;
-	padding: 10px;
-	height: 100%;
+	padding: 9px;
 	border-right: 1px solid black;
 }
 
@@ -78,27 +97,27 @@ html {
 }
 
 .inputsearch {
-	font-size: 16px;
+	font-size: 1em;
 	height: 100%;
+	padding-left: 10px;
 	position: absolute;
 	width: 778px;
 }
 
 .selector-list {
-	border-radius: 4px 4px 4px 4px;
+	border-radius: 4px;
 	position: absolute;
 	top: 0px;
 	left: 0px;
 	height: 100%;
-	width: 45px;
+	width: 100%;
 	opacity: 0;
 	cursor: pointer;
 }
 
 .searchexecute {
-	position: relative;
 	width: 45px;
-	height: 100%;
+	height: 37px;
 	float: right;
 	background-color: #febd69;
 	border-radius: 0px 4px 4px 0px;
@@ -112,12 +131,7 @@ html {
 	left: 13px;
 }
 
-.evnetimg {
-	float: right;
-	display: inline-block;
-	position: absolute;
-	margin: 13px 8px 0 0px;
-}
+/* nav-bottom style */
 
 .nav-bottom {
 	margin-top: 15px;
@@ -125,26 +139,19 @@ html {
 	color: #fff;
 }
 
-.location, .menu, .usertools {
+.nav-bottom>div {
 	height: 100%;
-}
-
-.location {
 	float: left;
-	margin: 0px 42px 5px 27px;
+	margin-right: 25px;
 }
 
 .menu {
-	float: left;
-	width: 840px;
+	width: 810px;
 	padding-top: 13px;
 }
 
 .usertools {
-	float: left;
-	height: 100%;
 	width: 450px;
-	color: #ccc;
 }
 
 .location-ico {
@@ -167,7 +174,7 @@ html {
 	font-weight: 700;
 }
 
-.hamberger-menu {
+.hamburger-menu {
 	position: relative;
 	display: inline-block;
 	width: 105px;
@@ -265,7 +272,7 @@ html {
 .usertools-orders, .usertools-prime {
 	margin-top: 7px;
 	margin-left: 1px;
-	padding: 10px 10px 10px 10px;
+	padding: 10px;
 }
 
 .usertools-orders-link {
@@ -301,4 +308,86 @@ html {
 
 .usertools-cart-contents {
 	margin-top: 7px;
+}
+
+.detailpage {
+	opacity: 0;
+	height: 8000px;
+}
+
+.planpage {
+	position: relative;
+	overflow: hidden;
+	height: 0px;
+	width: 100%;
+	background-color: #232f3e;
+	transition: height 1s ease;
+	border-bottom: 2px solid #00a8e1;
+}
+
+.planpage-contents {
+	height: 100%;
+	text-align: center;
+	margin: 0 auto;
+	min-width: 1531px;
+}
+
+.planpage-contents-logo {
+	float: left;
+	margin-left: 100px;
+}
+
+.planpage-contents-btn {
+	float: right;
+	margin-right: 100px;
+	width: 150px;
+	height: 100%;
+}
+
+.contents-btn {
+	width: 132px;
+	height: 44px;
+	margin: 10px;
+	background-color: #ffa724;
+	border-color: #ff6138;
+	border-style: solid;
+	border-width: 1px 1px 2px;
+	border-radius: 3px;
+	font-size: 16px;
+	color: #284d40;
+	font-weight: bold;
+}
+
+.planpage-contents-txt {
+	display: inline-block;
+	color: #fafafa;
+	font-weight: 300;
+	margin-top: 30px;
+	font-size: 18px;
+}
+
+.downarrow {
+	display: block;
+	width: 30px;
+	height: 18px;
+	margin: 0 auto;
+}
+
+.planpage-contents-logo {
+	width: 90px;
+	height: 61px;
+}
+
+.primeblue {
+	height: 59px;
+	padding-top: 5px;
+}
+
+.planpage-scroll-bottom {
+	height: 70px;
+}
+
+.planpage-scroll-middle {
+	position: fixed;
+	top: 0;
 }
