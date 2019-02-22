@@ -1,3 +1,7 @@
+@import './nav-plan.css';
+@import './nav.css';
+@import './detailpage.css';
+
 /* 기본 CSS */
 
 * {

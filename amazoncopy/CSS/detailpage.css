@@ -1,0 +1,172 @@
+.detailpage {
+	height: 8000px;
+}
+
+.prime-text-container {
+	background-image: url('../img/datail01png.png');
+	height: 475px;
+	color: #fff;
+}
+
+.prime-text>* {
+	margin-bottom: 20px;
+}
+
+.prime-text {
+	float: left;
+	margin: 20px 0 0px 40px;
+}
+
+.prime-detailcontainer {
+	margin: 0 60px 0 60px;
+	position: relative;
+}
+
+.prime-heading {
+	margin-bottom: 20px;
+	font-size: 2.5rem;
+}
+
+.prime-heading-sub {
+	font-size: 1.5rem;
+}
+
+/* prime-btn css */
+
+.primebtn {
+	display: block;
+	width: 360px;
+	height: 54px;
+	background: #ffa724;
+	border-radius: 3px;
+	border: 1px solid #ff6138;
+	border-width: 1px 1px 2px;
+	font-size: 1rem;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.prime-btn>* {
+	cursor: pointer;
+}
+
+.btnlist {
+	width: 112px;
+	height: 30px;
+	border-radius: 2px;
+}
+
+.primebtn-month {
+	background-color: #fae4cc;
+	font-weight: 600;
+	border-color: #ff6138;
+}
+
+.primebtn-annual {
+	background-color: #fff;
+}
+
+.prime-logo {
+	width: 80px;
+	height: 50px;
+}
+
+.prime-carousel-container {
+	margin: 0 60px 0 60px;
+}
+
+.prime-carousel {
+	width: 850px;
+	height: 262px;
+	margin: 0 110px;
+	position: absolute;
+	top: 372px;
+	left: 141px;
+	color: #fff;
+	font-size: 1.3rem;
+}
+
+.prime-carousel>* {
+	float: left;
+	margin: 10px;
+}
+
+.prime-carousel img {
+	width: 100px;
+	height: 100px;
+}
+
+.carousel {
+	text-align: center;
+	width: 150px;
+	height: 210px;
+	padding: 30px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.carousel-btn {
+	text-align: center;
+}
+
+.carousel-btn-txt {
+	margin-bottom: 20px;
+}
+
+.carousel-btn .btn {
+	display: inline-block;
+	border-radius: 50%;
+	background-color: #DBDBDB;
+	width: 10px;
+	height: 10px;
+}
+
+.shipcard {
+	background: #373B44;
+	background: -webkit-linear-gradient(to top, #4286f4, #293d6a);
+	background: linear-gradient(to top, #4286f4, #293d6a);
+}
+
+.streamcard {
+	background: #ED213A;
+	background: -webkit-linear-gradient(to bottom, #93291E, #ED213A);
+	background: linear-gradient(to bottom, #93291E, #ED213A);
+}
+
+.shopcard {
+	background: #FF0099;
+	background: -webkit-linear-gradient(to top, #493240, #FF0099);
+	background: linear-gradient(to top, #493240, #FF0099);
+}
+
+.shopcardimg {
+	position: relative;
+	left: -17px;
+}
+
+.readcard {
+	background: #11998e;
+	background: -webkit-linear-gradient(to bottom, #38ef7d, #11998e);
+	background: linear-gradient(to bottom, #38ef7d, #11998e);
+}
+
+.morecard {
+	background: #FDC830;
+	background: -webkit-linear-gradient(to top, #F37335, #FDC830);
+	background: linear-gradient(to top, #F37335, #FDC830);
+}
+
+.carouselIntc {
+	margin-top: 160px;
+}
+
+.carouselimg {
+	width: 100%;
+}
+
+.fastdetail {
+	margin: 0 60px 0 60px;
+}
+.fastdetail > *{
+	width: 100%;
+}
