@@ -1,4 +1,8 @@
 {
-  "number": 2,
-  "url": "kakaFE.github.io/amazoncopy/img/origin2.jpg"
+  "imgArr": [
+    "https://kakaFE.github.io/amazoncopy/img/origin1.jpg",
+    "https://kakaFE.github.io/amazoncopy/img/origin2.jpg",
+    "https://kakaFE.github.io/amazoncopy/img/origin3.jpg",
+    "https://kakaFE.github.io/amazoncopy/img/origin4.jpg"
+  ]
 }
