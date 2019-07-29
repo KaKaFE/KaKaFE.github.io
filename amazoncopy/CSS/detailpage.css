@@ -78,10 +78,10 @@
 .prime-carousel {
 	width: 850px;
 	height: 262px;
-	margin: 0 110px;
 	position: absolute;
-	top: 372px;
-	left: 141px;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	color: #fff;
 	font-size: 1.3rem;
 }
