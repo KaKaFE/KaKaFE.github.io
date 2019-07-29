@@ -1,6 +1,9 @@
 # (주)몽키램 - 무비무비(Movie-Boovie)
 무비부비는 사용자가 검색한 영화를 현재 위치에서 가장 **가까운** 영화관의, 가장 **가까운** 시간대에 상영중인 영화에 대한 정보를 알려주는 사이트입니다.
 
+
+![demo](./img/demo.gif)
+
 ## 설계 
 Front - Javascript  
 Back - Django(Python3)
