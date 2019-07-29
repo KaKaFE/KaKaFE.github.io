@@ -1,0 +1,82 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>TEST_MovieBoovie</title>
+    <link href="https://fonts.googleapis.com/css?family=Acme|Kanit:400,500,600,700,800&amp;subset=korean" rel="stylesheet" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <main class="main">
+        <div class="main-wrapper">
+            <div class="outer-container">
+                <div class="search-box">
+                    <div class="logo">
+                        <div class="owl"></div>
+                        <div class="movie-boovie"></div>
+                    </div>
+                    <form action="#" method="GET" class="search-form">
+                        <input class="search-bar first" type="text" />
+                        <button class="btn btn-search">검색</button>
+                        <div class="search-result-cnt">
+                            <ul class="search-result">
+                            </ul>
+                        </div>
+                    </form>
+                </div>
+                <div class="result-box">
+                    <div class="result-container">
+                        <div class="poster-wrapper">
+                            <div class="poster-container">
+                                <div class="poster"></div>
+                                <div class="poster-info">
+                                    <h2 class="release-date"></h2>
+                                    <div class="rating-container"></div>
+                                    <div class="poster-summary"></div>
+                                </div>
+                            </div>
+                            </form>
+                        </div>
+                        <div class="movie-info-container">
+                            <div class="movie-info">
+                                <h1 class="movie-name"></h1>
+                                <!-- <div class="score">평점 : 7.5</div>
+                                <p class="summary">
+                                    The story follows Carol Danvers as she becomes one of the universe’s most powerful heroes when Earth is caught in the middle of a galactic war between two alien races. Set in the 1990s, Captain Marvel is an all-new adventure from a previously unseen period
+                                    in the history of the Marvel Cinematic Universe.
+                                </p> -->
+                            </div>
+                            <div class="info-box">
+                                <div class="theater-name">롯데시네마 용산점</div>
+                                <div class="time-table">
+                                    <span class="theater-num">5관</span>
+                                    <span class="movie-time">18:30</span>
+                                </div>
+                                <div class="booking-btn">예매하기</div>
+                            </div>
+                            <div class="info-box">
+                                <div class="theater-name">CGV 용산점</div>
+                                <div class="time-table">
+                                    <span class="theater-num">3관</span>
+                                    <span class="movie-time">18:30</span>
+                                </div>
+                                <div class="booking-btn">예매하기</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=d91aa2c5e6c4a249457e0bc4f99c957a&libraries=services"></script>
+    <script src="js/map.js"></script>
+    <script src="js/main.js" type="module"></script>
+    <script src="js/genre.js"></script>
+    <script src='js/crawling.js'></script>
+</body>
+
+</html>
