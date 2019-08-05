@@ -1,5 +1,10 @@
 .detailpage {
 	height: 8000px;
+	min-width: 1400px;
+}
+
+.detailpage>div {
+	margin: 0 60px 60px 60px;
 }
 
 .prime-text-container {
@@ -18,7 +23,6 @@
 }
 
 .prime-detailcontainer {
-	margin: 0 60px 0 60px;
 	position: relative;
 }
 
@@ -72,16 +76,15 @@
 }
 
 .prime-carousel-container {
-	margin: 0 60px 0 60px;
+	height: 490px;
+	position: relative;
+	top: -101px;
 }
 
 .prime-carousel {
 	width: 850px;
 	height: 262px;
-	position: absolute;
-	top: 40%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	margin: 0 auto;
 	color: #fff;
 	font-size: 1.3rem;
 }
@@ -156,17 +159,83 @@
 	background: linear-gradient(to top, #F37335, #FDC830);
 }
 
-.carouselIntc {
-	margin-top: 160px;
-}
-
 .carouselimg {
 	width: 100%;
 }
 
-.fastdetail {
-	margin: 0 60px 0 60px;
-}
-.fastdetail > *{
+.fastdetail>* {
 	width: 100%;
+}
+
+.left {
+	transform: rotate(270deg);
+}
+
+.right {
+	transform: rotate(90deg);
+}
+
+.prime-origin-carousel {
+	overflow: hidden;
+	display: flex;
+	position: relative;
+}
+
+.origin-carousel-container {
+	display: flex;
+	margin: 25px auto;
+	overflow: hidden;
+	width: 280px;
+	position: relative;
+}
+
+.originimg {
+	height: 210px;
+	display: inline-block;
+	flex: 0 0 280px;
+}
+
+.arrowrapper {
+	height: 15px;
+	position: absolute;
+	top: 105px;
+	cursor: pointer;
+}
+
+.arrow {
+	width: 10px;
+	height: 11px;
+}
+
+.leftarr {
+	left: 220px;
+}
+
+.rightarr {
+	left: 535px;
+}
+
+.imgWrapper {
+	width: 280px;
+	height: 210px;
+	display: flex;
+	transition: transform 0.2s ease-in-out 0.2s;
+}
+
+.origin-benefit {
+	width: 45%;
+	height: 200px;
+}
+
+.origin-benefit>div {
+	margin-bottom: 30px;
+}
+
+.benefit-header {
+	font-size: 2.5rem;
+}
+
+.benefit-context {
+	font-size: 1.2rem;
+	color: gray;
 }
