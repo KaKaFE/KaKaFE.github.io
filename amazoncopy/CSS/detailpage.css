@@ -184,9 +184,10 @@
 .origin-carousel-container {
 	display: flex;
 	margin: 25px auto;
+	width: 330px;
 	overflow: hidden;
-	width: 280px;
-	position: relative;
+	align-content: center;
+	justify-content: center;
 }
 
 .originimg {
@@ -196,29 +197,32 @@
 }
 
 .arrowrapper {
-	height: 15px;
-	position: absolute;
-	top: 105px;
 	cursor: pointer;
+	position: absolute;
+	top: 50%
 }
 
 .arrow {
 	width: 10px;
 	height: 11px;
+	;
 }
 
 .leftarr {
-	left: 220px;
+	margin-right: 10px;
+	left: 14%;
 }
 
 .rightarr {
-	left: 535px;
+	margin-left: 10px;
+	left: 39%;
 }
 
 .imgWrapper {
 	width: 280px;
 	height: 210px;
 	display: flex;
+	overflow: hidden;
 	transition: transform 0.2s ease-in-out 0.2s;
 }
 
