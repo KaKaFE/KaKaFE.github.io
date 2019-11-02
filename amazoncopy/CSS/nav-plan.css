@@ -153,17 +153,61 @@
   display: inline-block;
   width: 100%;
   height: 100%;
-  padding: 20px 20px 0px 20px;
+  padding: 30px 20px 0px 30px;
 }
 
-.plan-card-header{
+.plan-card-header {
+  display: inline-block;
   font-size: 30px;
   font-weight: 300;
 }
 
-.plan-price-card-price-bold{
+.radio-button {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+input[type="radio"]:checked ~ .plan-card-bg {
+  background: radial-gradient(at 155px 98px, #00a8e1, #0094c6);
+}
+.plan-card-button {
+  display: inline-block;
+  pointer-events: none;
+  background-color: white;
+  border: 2px solid #aaaaaa;
+  border-radius: 100%;
+  height: 25px;
+  width: 25px;
+  margin-left: 70px;
+}
+.plan-price-card-price-bold {
   font-size: 20px;
   font-weight: 600;
+}
+
+.benefit-cont {
+  width: 100%;
+  height: 80%;
+  padding: 40px 0px 0 25px;
+}
+
+.benefit-list > li {
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+.benefit-check {
+  display: inline-block;
+  padding-right: 15px;
+}
+.benefit-check::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 20px;
+  border: solid #00a8e1;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
 }
 /* 스크롤 이벤트 발생시 추가되는 class */
 
