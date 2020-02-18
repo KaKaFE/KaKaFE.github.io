@@ -1,229 +1,254 @@
 /* more plan page Style */
 
 .plan {
-  z-index: 1;
-  position: relative;
-  overflow: hidden;
-  height: 0px;
-  width: 100%;
-  background-color: #232f3e;
-  transition: height 1s;
-  border-bottom: 2px solid #00a8e1;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+    height: 0px;
+    width: 100%;
+    background-color: #232f3e;
+    transition: height 1s;
+    border-bottom: 2px solid #00a8e1;
 }
 
 .plan-contents {
-  overflow: hidden;
-  height: 100%;
-  text-align: center;
-  margin: 0 auto;
-  min-width: 1400px;
+    overflow: hidden;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+    min-width: 1400px;
 }
 
 .plan-contents-logo {
-  float: left;
-  margin-left: 100px;
+    float: left;
+    margin-left: 100px;
 }
 
 .plan-contents-btn {
-  float: right;
-  margin-right: 100px;
-  width: 150px;
-  height: 100%;
+    float: right;
+    margin-right: 100px;
+    width: 150px;
+    height: 100%;
 }
 
 .contents-btn {
-  width: 132px;
-  height: 44px;
-  margin: 10px;
-  background-color: #ffa724;
-  border-color: #ff6138;
-  border-style: solid;
-  border-width: 1px 1px 2px;
-  border-radius: 3px;
-  font-size: 16px;
-  color: #284d40;
-  font-weight: bold;
+    width: 132px;
+    height: 44px;
+    margin: 10px;
+    background-color: #ffa724;
+    border-color: #ff6138;
+    border-style: solid;
+    border-width: 1px 1px 2px;
+    border-radius: 3px;
+    font-size: 16px;
+    color: #284d40;
+    font-weight: bold;
 }
 
 .plan-contents-txt {
-  cursor: pointer;
-  display: inline-block;
-  color: #fafafa;
-  font-weight: 300;
-  margin-top: 30px;
-  font-size: 18px;
+    cursor: pointer;
+    display: inline-block;
+    color: #fafafa;
+    font-weight: 300;
+    margin-top: 30px;
+    font-size: 18px;
 }
 
 .downarrow {
-  display: block;
-  width: 30px;
-  height: 18px;
-  margin: 0 auto;
+    display: block;
+    width: 30px;
+    height: 18px;
+    margin: 0 auto;
 }
 
 .plan-contents-logo {
-  width: 90px;
-  height: 61px;
+    width: 90px;
+    height: 61px;
 }
 
 .primeblue {
-  height: 59px;
-  padding-top: 5px;
+    height: 59px;
+    padding-top: 5px;
 }
 
+
 /* show more contents Style */
+
 .more-contents {
-  padding-left: 150px;
-  padding-right: 150px;
+    padding-left: 150px;
+    padding-right: 150px;
+    min-width: 1600px;
 }
 
 .plan-more-contents {
-  width: 100%;
-  height: 0px;
-  overflow: hidden;
-  min-width: 1523px;
-  background-color: #fff;
-  transition: height 1s;
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    min-width: 1523px;
+    background-color: #fff;
+    transition: height 1s;
 }
 
 .top-primeimg {
-  padding-top: 30px;
+    padding-top: 30px;
 }
+
 .contents-top-img {
-  width: 100%;
+    width: 100%;
 }
+
 .more-contents-wrap {
-  position: relative;
-  width: 80%;
-  margin: 0 auto;
-  height: 100%;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
 }
 
 .more-contents-img {
-  width: 998px;
-  height: 630px;
-  margin: 20px auto;
+    width: 998px;
+    height: 630px;
+    margin: 20px auto;
 }
 
 .contents-top {
-  display: inline-block;
-  width: 100%;
-  height: 150px;
-  padding: 0 50px;
+    display: inline-block;
+    width: 100%;
+    height: 150px;
+    padding: 0 50px;
 }
 
 .contents-label-con {
-  display: flex;
-  height: 470px;
+    display: flex;
+    height: 470px;
 }
 
 .label-wrap {
-  flex: auto;
-  margin: 20px 40px;
-  height: 430px;
-  border: 1px solid;
+    flex: auto;
+    margin: 20px 40px;
+    height: 430px;
+    border: 1px solid;
 }
-.label-wrap > label {
-  display: inline-block;
-  width: 100%;
-  height: 100%;
+
+.label-wrap>label {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
 }
 
 .more-contents-closebtn {
-  top: 20px;
-  float: right;
-  cursor: pointer;
-  position: relative;
+    top: 20px;
+    float: right;
+    cursor: pointer;
+    position: relative;
 }
 
 .more-contents-arrow {
-  margin: 0 auto;
-  width: 20px;
-  height: 15px;
-  bottom: 45px;
-  cursor: pointer;
+    margin: 0 auto;
+    width: 20px;
+    height: 15px;
+    bottom: 45px;
+    cursor: pointer;
 }
 
 .more-contents-arrow-img {
-  width: 20px;
-  height: 15px;
+    width: 20px;
+    height: 15px;
 }
 
 .plan-card-bg {
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-  padding: 30px 20px 0px 30px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 30px 20px 0px 30px;
 }
 
 .plan-card-header {
-  display: inline-block;
-  font-size: 30px;
-  font-weight: 300;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 300;
 }
 
 .radio-button {
-  width: 100%;
-  height: 100%;
-  display: none;
+    width: 100%;
+    height: 100%;
+    display: none;
 }
 
-input[type="radio"]:checked ~ .plan-card-bg {
-  background: radial-gradient(at 155px 98px, #00a8e1, #0094c6);
+.benefit-check {
+    display: inline-block;
+    padding-right: 15px;
+    --border-color: #00a8e1;
+    --border-check-color: #000000;
 }
+
+.benefit-check {
+    content: "";
+    width: 10px;
+    height: 20px;
+    border: solid var(--border-color);
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    margin-right: 13px;
+}
+
+input[type="radio"]:checked~.plan-card-bg {
+    background: radial-gradient(at 155px 98px, #00a8e1, #0094c6);
+}
+
+.benefit-check-black {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 20px;
+    border: solid var(--border-check-color);
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    margin-right: 13px;
+}
+
 .plan-card-button {
-  display: inline-block;
-  pointer-events: none;
-  background-color: white;
-  border: 2px solid #aaaaaa;
-  border-radius: 100%;
-  height: 25px;
-  width: 25px;
-  margin-left: 70px;
+    display: inline-block;
+    pointer-events: none;
+    background-color: white;
+    border: 2px solid #aaaaaa;
+    border-radius: 100%;
+    height: 25px;
+    width: 25px;
+    margin-left: 70px;
 }
+
 .plan-price-card-price-bold {
-  font-size: 20px;
-  font-weight: 600;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .benefit-cont {
-  width: 100%;
-  height: 80%;
-  padding: 40px 0px 0 25px;
+    width: 100%;
+    height: 80%;
+    padding: 40px 0px 0 25px;
 }
 
-.benefit-list > li {
-  margin-bottom: 20px;
-  font-size: 17px;
+.benefit-list>li {
+    margin-bottom: 20px;
+    font-size: 17px;
 }
-.benefit-check {
-  display: inline-block;
-  padding-right: 15px;
-}
-.benefit-check::before {
-  content: "";
-  display: inline-block;
-  width: 10px;
-  height: 20px;
-  border: solid #00a8e1;
-  border-width: 0 2px 2px 0;
-  transform: rotate(45deg);
-}
+
+
 /* 스크롤 이벤트 발생시 추가되는 class */
 
 .plan-scroll-bottom {
-  height: 70px;
+    height: 70px;
 }
 
 .plan-scroll-middle {
-  position: fixed;
-  top: 0;
+    position: fixed;
+    top: 0;
 }
 
 .plan-more-click {
-  height: 671px;
+    height: 671px;
 }
 
 .plan-contents-downsize {
-  height: 0;
+    height: 0;
 }
